@@ -1,5 +1,6 @@
 import './App.css'
 import TodoForm from './components/todo-form.component'
+import TodoList from './components/todo-list.component'
 
 const App = () => {
   // const initialList = [{ id: 1, name: 'grocery', status: 'todo' }]
@@ -18,7 +19,7 @@ const App = () => {
 
   return (
     <div className="todo-app">
-      <TodoForm />
+      <TodoList />
     </div>
   )
 }
